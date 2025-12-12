@@ -1,5 +1,6 @@
 sakurainanase@N-MacBook-Pro git_challenge % git init
 Initialized empty Git repository in /Users/sakurainanase/Documents/git_challenge/git_challenge/.git/
+sakurainanase@N-MacBook-Pro git_challenge % git add /Users/sakurainanase/Documents/git_challenge/git_challenge
 sakurainanase@N-MacBook-Pro git_challenge % git add hello_world.txt
 sakurainanase@N-MacBook-Pro git_challenge % git commit -m "hello,world!
 を追加"
@@ -7,7 +8,17 @@ zsh: event not found: を追加
 sakurainanase@N-MacBook-Pro git_challenge % git commit -m 'hello,world! を追加'
 [main (root-commit) 21e6fac] hello,world! を追加
  2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .DS_Store
  create mode 100644 hello_world.txt
+sakurainanase@N-MacBook-Pro git_challenge % git commit -m "こんにちは、世界を追加"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .DS_Store
+        modified:   hello_world.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+sakurainanase@N-MacBook-Pro git_challenge % git add .
 sakurainanase@N-MacBook-Pro git_challenge % git commit -m "こんにちは、世界を追加"
 [main bceb54b] こんにちは、世界を追加
  2 files changed, 2 insertions(+)
